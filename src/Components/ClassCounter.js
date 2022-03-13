@@ -9,9 +9,9 @@ class ClassCounter extends Component {
     };
   }
   increse = () => {
-    this.setState((e) => {
-      return { count: e.count + 1 };
-    });
+    let count = this.state.count + 1;
+    //we cannot declear this.state in setstate function.it can end up with infinity loop.
+    this.setState({ count: count });
   };
 
   render() {
