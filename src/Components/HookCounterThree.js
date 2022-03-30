@@ -8,6 +8,7 @@ export default function HookCounterThree() {
       <input
         type="text"
         value={name.firstName}
+        //how to read this- Hey copy all the property form name object and over write firstname field with diffrent value.
         onChange={(e) => {
           setName({ ...name, firstName: e.target.value });
         }}
