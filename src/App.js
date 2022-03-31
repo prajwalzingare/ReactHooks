@@ -12,8 +12,8 @@ import { UseStateArray } from "./Components/UseStateArray";
 function App() {
   return (
     <div className="App">
-      <ClassCounterOne />
-      {/* <HookCounterOne /> */}
+      {/* <ClassCounterOne /> */}
+      <HookCounterOne />
       {/* <UseStateArray /> */}
       {/* <HookCounterFour /> */}
       {/* <HookCounterThree /> */}
