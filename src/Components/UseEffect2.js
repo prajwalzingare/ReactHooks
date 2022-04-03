@@ -19,13 +19,13 @@ function UseEffect2() {
     };
   });
 
-  useEffect(() => {
-    first;
+  // useEffect(() => {
+  //   first;
 
-    return () => {
-      second;
-    };
-  }, [third]);
+  //   return () => {
+  //     second;
+  //   };
+  // }, [third]);
 
   return (
     <div>
