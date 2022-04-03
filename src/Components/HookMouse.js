@@ -15,7 +15,7 @@ export default function HookMouse() {
     window.addEventListener("mousemove", movemouse);
     //humne ku clean up function likha kuki apne ko jo warning aa rahi thi ki function run ho raha haii memory me usko clean karne ke liye. class component me usko componentwillunmount ki help se karsakte the.
     return function cleanup() {
-      console.log("removed");
+      console.log("removed Sucessfully");
       window.removeEventListener("mousemove", movemouse);
     };
   }, []); //you are basically telling react hey this perticular efect does not depend on any props or state so there is no reason to call on rerender . so react reolies you only want to call this on initial rendering i can do that.
