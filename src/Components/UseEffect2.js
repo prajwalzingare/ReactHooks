@@ -6,6 +6,7 @@ function UseEffect2() {
     <div>
       <p>The actual size of the window is</p>
       <h1>{1920}</h1>
+      <h1>{1920}</h1>
     </div>
   );
 }
