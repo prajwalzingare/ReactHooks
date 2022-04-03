@@ -19,6 +19,14 @@ function UseEffect2() {
     };
   });
 
+  useEffect(() => {
+    first;
+
+    return () => {
+      second;
+    };
+  }, [third]);
+
   return (
     <div>
       <p>The actual size of the window is</p>
