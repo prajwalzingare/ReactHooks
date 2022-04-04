@@ -20,9 +20,9 @@ import { UseStateArray } from "./Components/UseStateArray";
 function App() {
   return (
     <div className="App">
-      <UseEffect2 />
+      {/* <UseEffect2 /> */}
       {/* <UseEfect1 /> */}
-      {/* <DataFetching /> */}
+      <DataFetching />
       {/* <IntervalHookCounter /> */}
       {/* <IntervalClassCounter /> */}
       {/* <MouseContainer /> */}
