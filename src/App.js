@@ -22,13 +22,15 @@ import React from "react";
 // import Counter from "./Components/useReducer hook/Counter";
 // import Counter1 from "./Components/useReducer hook/Counter1";
 import Counter2 from "./Components/useReducer hook/Counter2";
+import Counter3 from "./Components/useReducer hook/Counter3";
 // export const UserContext = React.createContext(); //this is must to write when you want to use usercontext
 // export const ChannalContext = React.createContext();
 // export const NameContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <Counter2 />
+      <Counter3 />
+      {/* <Counter2 /> */}
       {/* <Counter1 /> */}
       {/* <Counter /> */}
       {/* <CounterOne /> */}
