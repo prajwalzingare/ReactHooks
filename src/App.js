@@ -14,17 +14,17 @@ import React from "react";
 // import HookCounter from "./Components/HookCounter";
 // import HookCounterTwo from "./Components/HookCounterTwo";
 // import Tut1 from "./Components/Tut1";
-import ComponentC from "./Components/usecontext/ComponentC";
+// import ComponentC from "./Components/usecontext/ComponentC";
 // import UseEfect1 from "./Components/UseEfect1";
 // import UseEffect2 from "./Components/UseEffect2";
-import { UseStateArray } from "./Components/UseStateArray";
-import CounterOne from "./Components/CounterOne";
-import Counter from "./Components/useReducer hook/Counter";
-import Counter1 from "./Components/useReducer hook/Counter1";
+// import { UseStateArray } from "./Components/UseStateArray";
+// import CounterOne from "./Components/useReducer hook/CounterOne";
+// import Counter from "./Components/useReducer hook/Counter";
+// import Counter1 from "./Components/useReducer hook/Counter1";
 import Counter2 from "./Components/useReducer hook/Counter2";
-export const UserContext = React.createContext(); //this is must to write when you want to use usercontext
-export const ChannalContext = React.createContext();
-export const NameContext = React.createContext();
+// export const UserContext = React.createContext(); //this is must to write when you want to use usercontext
+// export const ChannalContext = React.createContext();
+// export const NameContext = React.createContext();
 function App() {
   return (
     <div className="App">
