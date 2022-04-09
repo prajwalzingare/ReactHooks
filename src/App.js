@@ -18,19 +18,27 @@ import ComponentC from "./Components/usecontext/ComponentC";
 // import UseEfect1 from "./Components/UseEfect1";
 // import UseEffect2 from "./Components/UseEffect2";
 import { UseStateArray } from "./Components/UseStateArray";
+import CounterOne from "./Components/CounterOne";
+import Counter from "./Components/useReducer hook/Counter";
+import Counter1 from "./Components/useReducer hook/Counter1";
+import Counter2 from "./Components/useReducer hook/Counter2";
 export const UserContext = React.createContext(); //this is must to write when you want to use usercontext
 export const ChannalContext = React.createContext();
 export const NameContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value={"prajwal"}>
+      <Counter2 />
+      {/* <Counter1 /> */}
+      {/* <Counter /> */}
+      {/* <CounterOne /> */}
+      {/* <UserContext.Provider value={"prajwal"}>
         <ChannalContext.Provider value={"zingare"}>
           <NameContext.Provider value={"Webdevloper"}>
             <ComponentC />
           </NameContext.Provider>
         </ChannalContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
       {/* <UseEffect2 /> */}
       {/* <UseEfect1 /> */}
       {/* <DataFetching /> */}
