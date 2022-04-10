@@ -1,8 +1,10 @@
 import "./App.css";
-import React, { useReducer, useContext } from "react";
-import ComponentA from "./Components/useReducer hook/ComponentA";
-import ComponentB from "./Components/useReducer hook/ComponentB";
-import ComponentC from "./Components/useReducer hook/ComponentC";
+import React from "react";
+import DataFetchingOne from "./Components/useReducer hook/DataFetchingOne";
+import DataFetchingTwo from "./Components/useReducer hook/DataFetchingTwo";
+// import ComponentA from "./Components/useReducer hook/ComponentA";
+// import ComponentB from "./Components/useReducer hook/ComponentB";
+// import ComponentC from "./Components/useReducer hook/ComponentC";
 // import ClassCounterOne from "./Components/ClassCounterOne";
 // import ClassMouse from "./Components/ClassMouse";
 // import DataFetching from "./Components/DataFetching";
@@ -29,33 +31,35 @@ import ComponentC from "./Components/useReducer hook/ComponentC";
 // export const UserContext = React.createContext(); //this is must to write when you want to use usercontext
 // export const ChannalContext = React.createContext();
 // export const NameContext = React.createContext();
-export const CountContext = React.createContext();
-let initialstate = 0;
-const reducer = (state, action) => {
-  switch (action) {
-    case "increment":
-      return state + 1;
-    case "decrement":
-      return state - 1;
-    case "reset":
-      return initialstate;
+// export const CountContext = React.createContext();
+// let initialstate = 0;
+// const reducer = (state, action) => {
+//   switch (action) {
+//     case "increment":
+//       return state + 1;
+//     case "decrement":
+//       return state - 1;
+//     case "reset":
+//       return initialstate;
 
-    default:
-      break;
-  }
-};
+//     default:
+//       break;
+//   }
+// };
 function App() {
-  const [count, dispatch] = useReducer(reducer, initialstate);
+  // const [count, dispatch] = useReducer(reducer, initialstate);
   return (
     <div className="App">
-      <CountContext.Provider
+      <DataFetchingTwo />
+      <DataFetchingOne />
+      {/* <CountContext.Provider
         value={{ countState: count, countDispatch: dispatch }}
       >
         <h1>count-{count}</h1>
         <ComponentA />
         <ComponentB />
         <ComponentC />
-      </CountContext.Provider>
+      </CountContext.Provider> */}
       {/* <Counter3 /> */}
       {/* <Counter2 /> */}
       {/* <Counter1 /> */}
