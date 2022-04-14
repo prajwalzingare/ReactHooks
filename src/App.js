@@ -3,6 +3,7 @@ import React from "react";
 import DataFetchingOne from "./Components/useReducer hook/DataFetchingOne";
 import DataFetchingTwo from "./Components/useReducer hook/DataFetchingTwo";
 import ParentComponent from "./Components/UseCallbackHook/ParentComponent";
+import Counter from "./Components/useMemoHook/Counter";
 // import ComponentA from "./Components/useReducer hook/ComponentA";
 // import ComponentB from "./Components/useReducer hook/ComponentB";
 // import ComponentC from "./Components/useReducer hook/ComponentC";
@@ -51,7 +52,8 @@ function App() {
   // const [count, dispatch] = useReducer(reducer, initialstate);
   return (
     <div className="App">
-      <ParentComponent />
+      <Counter />
+      {/* <ParentComponent /> */}
       {/* <DataFetchingTwo /> */}
       {/* <DataFetchingOne /> */}
       {/* <CountContext.Provider
