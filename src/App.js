@@ -4,6 +4,11 @@ import DataFetchingOne from "./Components/useReducer hook/DataFetchingOne";
 import DataFetchingTwo from "./Components/useReducer hook/DataFetchingTwo";
 import ParentComponent from "./Components/UseCallbackHook/ParentComponent";
 import Counter from "./Components/useMemoHook/Counter";
+import FocusInput from "./Components/useRefHook/FocusInput";
+import DocTitleOne from "./Components/Custom-Hook/DocTitleOne";
+import DocTitleTwo from "./Components/Custom-Hook/DocTitleTwo";
+import CounterOne from "./Components/Custom-Hook/CounterOne";
+import CounterTwo from "./Components/Custom-Hook/CounterTwo";
 // import ComponentA from "./Components/useReducer hook/ComponentA";
 // import ComponentB from "./Components/useReducer hook/ComponentB";
 // import ComponentC from "./Components/useReducer hook/ComponentC";
@@ -52,7 +57,12 @@ function App() {
   // const [count, dispatch] = useReducer(reducer, initialstate);
   return (
     <div className="App">
-      <Counter />
+      <CounterTwo />
+      <CounterOne />
+      {/* <DocTitleTwo /> */}
+      {/* <DocTitleOne /> */}
+      {/* <FocusInput /> */}
+      {/* <Counter /> */}
       {/* <ParentComponent /> */}
       {/* <DataFetchingTwo /> */}
       {/* <DataFetchingOne /> */}
